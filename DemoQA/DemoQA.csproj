@@ -28,8 +28,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="QADemoTests\Factories\" />
-    <Folder Include="QADemoTests\Models\" />
     <Folder Include="QADemoTests\Screenshots\" />
   </ItemGroup>
 

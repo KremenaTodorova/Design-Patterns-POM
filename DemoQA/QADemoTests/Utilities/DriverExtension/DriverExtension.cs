@@ -9,7 +9,7 @@ namespace DriverExtesionScroll
     {
         public static WebElement ScrollToElement(this WebElement element)
         {
-            ((IJavaScriptExecutor)element.WrappedDriver).ExecuteScript("arguments[0].scrollIntoView(true);", element.WrappedDriver);
+            ((IJavaScriptExecutor)element.WrappedDriver).ExecuteScript("arguments[0].scrollIntoView(true);", element.WrappedElement);
             return element;
         }
 
